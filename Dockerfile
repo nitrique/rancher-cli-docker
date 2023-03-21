@@ -1,4 +1,4 @@
-FROM alpine:3
+FROM docker:20-dind
 
 # Install extra package
 RUN apk --update add curl tar bash &&\
